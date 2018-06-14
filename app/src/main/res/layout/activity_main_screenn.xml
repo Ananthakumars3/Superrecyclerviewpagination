@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.servercallsample.superrecyclerviewpagination.Pagination.MainScreenn">
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_empty="@layout/emptyview"
+        app:layout_moreProgress="@layout/view_more_progress"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:recyclerPadding="16dp"
+        app:scrollbarStyle="insideInset" />
+</android.support.constraint.ConstraintLayout>
